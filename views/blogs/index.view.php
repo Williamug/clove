@@ -1,4 +1,4 @@
-<?php include_once(dirname(__DIR__) . "/partials/header.view.php"); ?>
+<?php include_once dirname(__DIR__) . "/partials/header.view.php";?>
 	<div class="mt-5">
 		<table class="table">
   			<thead class="thead-dark">
@@ -10,11 +10,11 @@
     			</tr>
   			</thead>
   			<tbody>
-  				<?php foreach($posts as $post): ?>
+  				<?php foreach ($posts as $post): ?>
     				<tr>
-      					<th scope="row"><?= $post['id'] ?></th>
-     				 	<td><?= $post['title'] ?></td>
-      					<td><?= $post['body'] ?></td>
+      					<th scope="row"><?=$post['id']?></th>
+     				 	<td><?=$post['title']?></td>
+      					<td><?=$post['body']?></td>
       					<td>
       						<div class="row">
       							<div class="col-4 text-success">View</div>
@@ -23,9 +23,9 @@
       						</div>
       					</td>
     				</tr>
-    			<?php endforeach; ?>
+    			<?php endforeach;?>
   			</tbody>
 		</table>
 	</div>
-<?php include('../partials/footer.view.php') ?>
+<?php include '../partials/footer.view.php'?>
 
