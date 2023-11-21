@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="">
 </head>
 <body>
+<?=$header?>
 
+<a href="/blog">Blog</a>
 </body>
 </html>
